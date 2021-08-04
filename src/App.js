@@ -1,6 +1,6 @@
 import Header from "./components/Header"
-import Title from "./components/Title"
-import General from "./components/General"
+import Body from "./components/Body";
+
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className='container'>
       <Header />
 
-      <Title />
+      <Body />
     </div>
   );
 }

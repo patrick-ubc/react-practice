@@ -1,7 +1,18 @@
+import Button from "./Button"
+
 const Header = () => {
     return (
         <div className='header'>
-            <h3 style={{float:'right', textAlign:'center'}}>English</h3>
+            <Button 
+                text="0x6...381" 
+                backgroundColor = '#2a3f3f'
+                textColor='white'
+            />
+            <Button 
+                text="English" 
+                backgroundColor='#0b1d1d' 
+                textColor='white'
+            />
         </div>
     )
 }

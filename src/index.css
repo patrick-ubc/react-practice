@@ -69,6 +69,7 @@ body {
 	cursor:pointer;
 	padding:6px 13px;
 	text-decoration:none;
+  margin: 5px;
 }
 
 .myButton:hover {

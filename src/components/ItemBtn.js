@@ -25,6 +25,7 @@ const ItemBtn = ({first, second, third, fourth}) => {
             text="Claim" 
             backgroundColor='#1fb1bb' 
             textColor='black'
+            buttonWidth='180%'
         />
     </div>
     )

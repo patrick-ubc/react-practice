@@ -2,7 +2,7 @@ import Button from "./Button"
 
 const Header = () => {
     return (
-        <div className='header'>
+        <div className='flow' style={{justifyContent: 'flex-end'}}>
             <Button 
                 text="0x6...381" 
                 backgroundColor = '#2a3f3f'

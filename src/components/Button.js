@@ -1,9 +1,10 @@
-const Button = ({text, backgroundColor, textColor}) => {
+const Button = ({text, backgroundColor, textColor, fontSize}) => {
     return (
         <div>
             <button className="myButton" 
                 style={{backgroundColor: backgroundColor, 
-                color: textColor
+                color: textColor,
+                fontSize: fontSize
                 }}>
                 {text}
             </button>

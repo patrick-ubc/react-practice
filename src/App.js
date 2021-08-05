@@ -1,14 +1,14 @@
-import Header from "./components/Header"
-import Body from "./components/Body";
+import Left from "./components/Left"
+import Right from "./components/Right"
 
 
 
 function App() {
   return (
-    <div className='container'>
-      <Header />
-
-      <Body />
+    <div style={{display: 'flex', alignItems: 'flex-start'}}>
+      <Left />
+      
+      <Right />
     </div>
   );
 }
